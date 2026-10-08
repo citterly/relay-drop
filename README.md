@@ -20,3 +20,4 @@ openssl enc -d -aes-256-cbc -pbkdf2 -in <name>.tgz.enc -out <name>.tgz
 
 - `drop-2026-10-07-test.tgz.gpg` — channel test: one HTML page and a README.
 - `drop-2026-10-07-parse-pack.tgz.gpg` — GASW-028 parse pack. Extract INSIDE the work `project-context/gasw-review/.memory/` folder: files land in place (`relay/2026-10-07-parse/PACK.md` is the note; `specs/GASW-028/...` is the payload). `.enc` twin for openssl.
+- `drop-2026-10-08-unit28.tgz.gpg` — GASW-028 parse chain: resume at unit 28 (prompts only; 27 is done at work). Extract INSIDE the work `project-context/gasw-review/.memory/` folder → `relay/2026-10-08-unit28/`. `.enc` twin for openssl.
